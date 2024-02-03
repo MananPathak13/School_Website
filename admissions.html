@@ -11,68 +11,74 @@
 <body class="bg-gray-50">
 
     <header class="relative bg-white">
-      <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
-          <div class="flex lg:flex-1">
-              <a href="index.html" class="-m-1.5 p-1.5">
-                  <img class="h-20 w-auto" src="Photos/Logo.jpg" alt="S. D. Public School Logo">
-              </a>
-          </div>
-          <div class="flex lg:hidden">
-              <button type="button" id="openMobileMenu" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
-                  <span class="sr-only">Open main menu</span>
-                  <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                      <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-                  </svg>
-              </button>
-          </div>
-          <div class="hidden lg:flex lg:gap-x-12">
-              <a href="index.html" class="text-sm font-semibold leading-6 text-gray-900">Home</a>
-              <a href="about.html" class="text-sm font-semibold leading-6 text-gray-900">About Us</a>
-              <a href="academics.html" class="text-sm font-semibold leading-6 text-gray-900">Academics</a>
-              <a href="admissions.html" class="text-sm font-semibold leading-6 text-gray-900">Admissions</a>
-              <a href="contact.html" class="text-sm font-semibold leading-6 text-gray-900">Contact us</a>
-          </div>
-          <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-              <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Log in <span aria-hidden="true">&rarr;</span></a>
-          </div>
-      </nav>
-      <!-- Mobile menu, show/hide based on menu open state. -->
-      <div id="mobileMenu" class="lg:hidden" role="dialog" aria-modal="true" style="display: none;">
-          <!-- Background backdrop, show/hide based on slide-over state. -->
-          <div class="fixed inset-0 z-50"></div>
-          <div class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
-              <div class="flex items-center justify-between">
-                  <a href="#" class="-m-1.5 p-1.5">
-                      <span class="sr-only">S. D. Public School</span>
-                      <img class="h-8 w-auto" src="Photos/Logo.jpg" alt="S. D. Public School Logo">
-                  </a>
-                  <button type="button" id="closeMobileMenu" class="-m-2.5 rounded-md p-2.5 text-gray-700">
-                      <span class="sr-only">Close menu</span>
-                      <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-                      </svg>
-                  </button>
-              </div>   
-              <div class="mt-6 flow-root">
-                  <div class="-my-6 divide-y divide-gray-500/10">
-                      <div class="space-y-2 py-6">
-                          <a href="/index.html"
-                              class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Home</a>
-                          <a href="/about.html"
-                              class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">About
-                              Us</a>
-                          <a href="/academics.html"
-                              class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Academics</a>
-                          <a href="/admissions.html"
-                              class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Admissions</a>
-                          <a href="/contact.html"
-                              class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Contact</a>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </header>
+        <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
+            <div class="flex lg:flex-1">
+                <a href="index.html" class="-m-1.5 p-1.5">
+                    <img class="h-20 w-auto" src="Photos/Logo.jpg" alt="S. D. Public School Logo">
+                </a>
+            </div>
+            <div class="flex lg:hidden">
+                <button type="button" id="openMobileMenu"
+                    class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                        aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                </button>
+            </div>
+            <div class="hidden lg:flex lg:gap-x-12">
+                <a href="index.html" class="text-sm font-semibold leading-6 text-gray-900">Home</a>
+                <a href="about.html" class="text-sm font-semibold leading-6 text-gray-900">About Us</a>
+                <a href="academics.html" class="text-sm font-semibold leading-6 text-gray-900">Academics</a>
+                <a href="admissions.html" class="text-sm font-semibold leading-6 text-gray-900">Admissions</a>
+                <a href="contact.html" class="text-sm font-semibold leading-6 text-gray-900">Contact us</a>
+            </div>
+            <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+                <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Log in <span
+                        aria-hidden="true">&rarr;</span></a>
+            </div>
+        </nav>
+        <!-- Mobile menu, show/hide based on menu open state. -->
+        <div id="mobileMenu" class="lg:hidden" role="dialog" aria-modal="true" style="display: none;">
+            <!-- Background backdrop, show/hide based on slide-over state. -->
+            <div class="fixed inset-0 z-50"></div>
+            <div
+                class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+                <div class="flex items-center justify-between">
+                    <a href="#" class="-m-1.5 p-1.5">
+                        <span class="sr-only">S. D. Public School</span>
+                        <img class="h-8 w-auto" src="Photos/Logo.jpg" alt="S. D. Public School Logo">
+                    </a>
+                    <button type="button" id="closeMobileMenu" class="-m-2.5 rounded-md p-2.5 text-gray-700">
+                        <span class="sr-only">Close menu</span>
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                            aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="mt-6 flow-root">
+                    <div class="-my-6 divide-y divide-gray-500/10">
+                        <div class="space-y-2 py-6">
+                            <a href="/index.html"
+                                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Home</a>
+                            <a href="/about.html"
+                                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">About
+                                Us</a>
+                            <a href="/academics.html"
+                                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Academics</a>
+                            <a href="/admissions.html"
+                                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Admissions</a>
+                            <a href="/contact.html"
+                                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Contact</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
     <div class="pt-24 min-h-screen "> <!-- Adjust padding-top (pt-24) as needed -->
         <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:px-8">
@@ -109,7 +115,7 @@
                                     <div class="flex-1 border-t-2 border-gray-200"></div>
                                 </div>
                                 <ul role="list" class="mt-8 lg:grid lg:grid-cols-2 gap-12">
-                                    
+
                                     <li class="mt-6 lg:mt-0">
                                         <div class="flex">
                                             <span
@@ -121,12 +127,12 @@
                                                     Provide your previous academic records for review.
                                                 </p>
                                             </div>
-                                            
+
                                         </div>
                                     </li>
                                 </ul>
                                 <ul role="list" class="mt-8 lg:grid lg:grid-cols-2 gap-12">
-                                    
+
                                     <li class="mt-6 lg:mt-0">
                                         <div class="flex">
                                             <span
@@ -150,8 +156,9 @@
                                 <!-- Icon -->
                             </svg>
                             <div class="ml-4">
-                                <a href="/contact.html" class="text-base font-semibold text-indigo-600 hover:text-indigo-500">
-                                    Contact us to start your application online
+                                <a href="/contact.html"
+                                    class="text-base font-semibold text-indigo-600 hover:text-indigo-500">
+                                    Contact us to start your application
                                     <span aria-hidden="true"> &rarr;</span>
                                 </a>
                             </div>
@@ -160,75 +167,157 @@
                 </div>
             </div>
         </div>
+        <div class="bg-white py-6 px-4 sm:px-6 lg:px-8">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-2xl font-extrabold text-gray-900">REGISTRATION & ADMISSION</h2>
+                <p class="mt-4 text-gray-600">
+                    The registration for the new admissions commences in the month of January every year. The new
+                    admission is open for Nursery and for a limited number of seats vacant in other classes. The
+                    children who have completed three (Plus, Minus three months as on 1st March) years of age are
+                    eligible for registration to Nursery. The admission to other classes is done if a vacancy exists.
+                    The request for registration is a prerequisite and doesn’t ensure admission. The registration
+                    charges are non-refundable. The decision of the Principal in all matters concerning admission shall
+                    be final and binding. The admission may be refused to any candidate without assigning any reason.
+                </p>
+                <p class="mt-4 text-gray-600">
+                    Registration and Admission for Toddler’s & Primary Wing commences in the month of December every
+                    year. The admission is done as per the given age of the child:
+                </p>
+                <ul class="list-disc pl-5 mt-4 text-gray-600">
+                    <li>Nursery 3+</li>
+                    <li>LKG 4+</li>
+                    <li>UKG 5+</li>
+                    <li>The admission to other classes is done if a vacancy exists.</li>
+                    <li>The registration charges are non-refundable. The school will not be responsible if a child, who
+                        is registered, but fails to appear in the entrance test.</li>
+                    <li>The registration form must be complete in all respects at the time of submission to the office.
+                    </li>
+                </ul>
+                <h3 class="mt-6 text-xl font-bold text-gray-900">DOCUMENTS REQUIRED AT THE TIME OF ADMISSION</h3>
+                <p class="mt-2 text-gray-600">
+                    The registration form must be submitted along with a Photocopy of the under mentioned documents:
+                </p>
+                <ul class="list-decimal pl-5 mt-2 text-gray-600">
+                    <li>Birth Certificate, issued by a valid authority like Municipal Committee / CMO.</li>
+                    <li>Aadhar Card (Ward and Parents)</li>
+                    <li>Transfer Certificate in original.</li>
+                    <li>Migration Certificate in original (class XI & XII),</li>
+                    <li>Report Card of the Last class attended / D.M.C.</li>
+                    <li>Two latest coloured passport size photographs of the child.</li>
+                    <li>Immunization Card.</li>
+                </ul>
+                <p class="mt-4 text-gray-600 italic">
+                    *The registration is a prerequisite and does not ensure admission.
+                </p>
+
+                <!-- Withdrawals Section -->
+                <div>
+                    <h3 class="text-xl font-bold text-gray-900">WITHDRAWALS</h3>
+                    <p class="text-gray-600">
+                        In case a child has to be withdrawn from the school, one month prior notice is required to be
+                        given in writing by the parents to the Principal. The School Leaving Certificate is issued on a
+                        payment of Rs. 50/- and after the clearance of the arrears and other dues.
+                    </p>
+                    <ul class="list-disc pl-5 text-gray-600">
+                        <li>Parents are requested to give one month notice failing which fee for one month will be
+                            charged.</li>
+                        <li>Transfer Certificates are not issued until all dues of the school are settled.</li>
+                        <li>It will take 7 working days after clearance to process the application for withdrawal, so
+                            ensure timely approval for the same.</li>
+                        <li>The school is authorized to give only the TC, any other counter singing by relevant
+                            authorities, (State/ District) is the responsibility of the parent.</li>
+                    </ul>
+                </div>
+
+                <!-- Suspension and Rustication Section -->
+                <div>
+                    <h3 class="text-xl font-bold text-gray-900">SUSPENSION AND RUSTICATION</h3>
+                    <p class="text-gray-600">
+                        A child found guilty of creating any sort of nuisance in the class/school/damaging the school
+                        property/using abusive or vulgar language against the fellow students/school
+                        mates/teachers/members of non-teaching staff or hospitality staff, will be given two warning
+                        letters in the first instance and subsequently he/she will be suspended for a week. The student
+                        will be rusticated in case of repetition of above said behavioral problems.
+                    </p>
+                </div>
+            </div>
+
+        </div>
     </div>
+
     <footer class="bg-gray-900 text-white flex flex-col items-center justify-center pt-4 pb-4 mt-6">
         <h2 id="footer-heading" class="sr-only">Footer</h2>
-        <div class="text-center mb-1"> 
-            <p class="text-sm leading-6 text-gray-300 mt-6"> 
+        <div class="text-center mb-1">
+            <p class="text-sm leading-6 text-gray-300 mt-6">
                 Empowering future generations through comprehensive education and innovative learning strategies.
             </p>
         </div>
-          <div class="flex justify-center space-x-6 mb-2">
-                          <a href="#" class="text-gray-500 hover:text-gray-400">
-                              <span class="sr-only">Facebook</span>
-                              <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                                <path fill-rule="evenodd"
-                                  d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
-                                  clip-rule="evenodd" />
-                              </svg>
-                          </a>
-                          <a href="https://maps.app.goo.gl/hpeM7QfDndsSJkGGA" target="_blank" class="text-gray-500 hover:text-gray-400">
-                            <span class="sr-only">Find us on Google Maps</span>
-                            <svg class="h-6 w-6" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
-                                <!-- Location icon SVG -->
-                                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z"/>
-                            </svg>
-                        </a>
-                        
-                          <a href="https://www.instagram.com/sdpublicschool04/" class="text-gray-500 hover:text-gray-400">
-                              <span class="sr-only">Instagram</span>
-                              <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                                <path fill-rule="evenodd"
-                                  d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
-                                  clip-rule="evenodd" />
-                              </svg>
-                          </a>
-                          <a href="https://www.youtube.com/@ChanKaran-dw9rv" class="text-gray-500 hover:text-gray-400">
-                              <span class="sr-only">YouTube</span>
-                              <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                                <path fill-rule="evenodd"
-                                  d="M19.812 5.418c.861.23 1.538.907 1.768 1.768C21.998 8.746 22 12 22 12s0 3.255-.418 4.814a2.504 2.504 0 0 1-1.768 1.768c-1.56.419-7.814.419-7.814.419s-6.255 0-7.814-.419a2.505 2.505 0 0 1-1.768-1.768C2 15.255 2 12 2 12s0-3.255.417-4.814a2.507 2.507 0 0 1 1.768-1.768C5.744 5 11.998 5 11.998 5s6.255 0 7.814.418ZM15.194 12 10 15V9l5.194 3Z"
-                                  clip-rule="evenodd" />
-                              </svg>
-                          </a>   
-                          <a href="tel:9653333249" class="text-gray-500 hover:text-gray-400">
-                            <span class="sr-only">Call Us</span>
-                            <svg class="h-6 w-6" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
-                                <path d="M20.821,15.912l-3.462-1.539c-0.277-0.123-0.599-0.046-0.818,0.173l-1.359,1.359
+        <div class="flex justify-center space-x-6 mb-2">
+            <a href="#" class="text-gray-500 hover:text-gray-400">
+                <span class="sr-only">Facebook</span>
+                <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path fill-rule="evenodd"
+                        d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                        clip-rule="evenodd" />
+                </svg>
+            </a>
+            <a href="https://maps.app.goo.gl/hpeM7QfDndsSJkGGA" target="_blank"
+                class="text-gray-500 hover:text-gray-400">
+                <span class="sr-only">Find us on Google Maps</span>
+                <svg class="h-6 w-6" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                    aria-hidden="true">
+                    <!-- Location icon SVG -->
+                    <path
+                        d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z" />
+                </svg>
+            </a>
+
+            <a href="https://www.instagram.com/sdpublicschool04/" class="text-gray-500 hover:text-gray-400">
+                <span class="sr-only">Instagram</span>
+                <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path fill-rule="evenodd"
+                        d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
+                        clip-rule="evenodd" />
+                </svg>
+            </a>
+            <a href="https://www.youtube.com/@ChanKaran-dw9rv" class="text-gray-500 hover:text-gray-400">
+                <span class="sr-only">YouTube</span>
+                <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path fill-rule="evenodd"
+                        d="M19.812 5.418c.861.23 1.538.907 1.768 1.768C21.998 8.746 22 12 22 12s0 3.255-.418 4.814a2.504 2.504 0 0 1-1.768 1.768c-1.56.419-7.814.419-7.814.419s-6.255 0-7.814-.419a2.505 2.505 0 0 1-1.768-1.768C2 15.255 2 12 2 12s0-3.255.417-4.814a2.507 2.507 0 0 1 1.768-1.768C5.744 5 11.998 5 11.998 5s6.255 0 7.814.418ZM15.194 12 10 15V9l5.194 3Z"
+                        clip-rule="evenodd" />
+                </svg>
+            </a>
+            <a href="tel:9653333249" class="text-gray-500 hover:text-gray-400">
+                <span class="sr-only">Call Us</span>
+                <svg class="h-6 w-6" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                    aria-hidden="true">
+                    <path d="M20.821,15.912l-3.462-1.539c-0.277-0.123-0.599-0.046-0.818,0.173l-1.359,1.359
                                     c-1.445-0.77-2.673-1.998-3.443-3.443l1.359-1.359c0.218-0.218,0.295-0.54,0.173-0.818l-1.539-3.461
                                     c-0.123-0.277-0.394-0.448-0.691-0.448h-4c-0.553,0-1,0.447-1,1v7c0,4.418,3.582,8,8,8c4.418,0,8-3.582,8-8v-0.5
-                                    C21.269,16.306,20.944,16.035,20.821,15.912z"/>
-                            </svg>
-                        </a>
-                        <a href="mailto:sdpublicschool04@gmail.com" class="text-gray-500 hover:text-gray-400">
-                          <span class="sr-only">Email Us</span>
-                          <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                              <!-- Email icon SVG -->
-                              <path d="M20,4H4C2.897,4,2,4.897,2,6v12c0,1.103,0.897,2,2,2h16c1.103,0,2-0.897,2-2V6C22,4.897,21.103,4,20,4z M20,6v0.511
+                                    C21.269,16.306,20.944,16.035,20.821,15.912z" />
+                </svg>
+            </a>
+            <a href="mailto:sdpublicschool04@gmail.com" class="text-gray-500 hover:text-gray-400">
+                <span class="sr-only">Email Us</span>
+                <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true">
+                    <!-- Email icon SVG -->
+                    <path d="M20,4H4C2.897,4,2,4.897,2,6v12c0,1.103,0.897,2,2,2h16c1.103,0,2-0.897,2-2V6C22,4.897,21.103,4,20,4z M20,6v0.511
                                   l-8,5.223l-8-5.223V6H20z M4,18V7.733l7.386,4.845c0.205,0.135,0.458,0.201,0.707,0.201s0.502-0.066,0.707-0.201L20,7.733V18
-                                  H4z"/>
-                          </svg>
-                      </a>
-                      
-                       
-                      </div>
-                  </div>
-              </div>
-              <div class="mt-16 border-t border-white/10 pt-4 sm:mt-20 lg:mt-24">
-                  <p class="text-xs leading-5 text-gray-400">&copy; S. D. PUBLIC SR. SEC. SCHOOL All rights reserved.</p>
-              </div>
-          </div>
-      </footer>
+                                  H4z" />
+                </svg>
+            </a>
+
+
+        </div>
+        </div>
+        </div>
+        <div class="mt-16 border-t border-white/10 pt-4 sm:mt-20 lg:mt-24">
+            <p class="text-xs leading-5 text-gray-400">&copy; S. D. PUBLIC SR. SEC. SCHOOL All rights reserved.</p>
+        </div>
+        </div>
+    </footer>
     <script>
         document.getElementById('openMobileMenu').addEventListener('click', function () {
             document.getElementById('mobileMenu').style.display = 'block';
